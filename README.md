@@ -28,13 +28,15 @@ open a ssh terminal session to the Pi4 running VenusOS and enter:
   	pip3 install RPi.GPIO
   
 
+Download the pwm_fan_control.py to your raspberry pi e.g. /data folder.
+
 Edit the temperatures in the pwm_fan_control.py to your needs.
 
 It's recommended to test the script in the opened terminal session.
 
 If it works, put it in a crontab, e.g. 
 
-  @reboot python3 /data/pwm_fan_control.py > /dev/null 2>&1
+    @reboot python3 /data/pwm_fan_control.py > /dev/null 2>&1
 
 This will start the script at every reboot.
 
