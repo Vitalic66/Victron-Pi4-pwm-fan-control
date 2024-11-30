@@ -17,15 +17,15 @@ Installation of RPi.GPIO:
 
 open a ssh terminal session to the Pi4 running VenusOS and enter:
 
-  opkg update
+  	opkg update
   
-  opkg install python3-dev
+  	opkg install python3-dev
   
-  opkg install packagegroup-core-buildessential
+ 	opkg install packagegroup-core-buildessential
   
-  opkg install pip3
+  	opkg install pip3
   
-  pip3 install RPi.GPIO
+  	pip3 install RPi.GPIO
   
 
 Edit the temperatures in the pwm_fan_control.py to your needs.
