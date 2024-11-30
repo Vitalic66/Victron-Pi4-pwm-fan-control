@@ -1,5 +1,9 @@
 This python is to control a 3 pin fan on a Pi4 running VenusOS from Victron Energy.
 
+The original file / post is public available here:
+
+https://forums.raspberrypi.com/viewtopic.php?t=354125
+
 The fan is controlled via PWM signal from GPIO 14.
 
 Installing RPi.GPIO is needed to be done, to make this python work. 
