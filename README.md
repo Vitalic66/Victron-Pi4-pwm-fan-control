@@ -23,7 +23,7 @@ open a ssh terminal session to the Pi4 running VenusOS and enter:
   
  	opkg install packagegroup-core-buildessential
   
-  	opkg install pip3
+  	opkg install pip3 / opkg install python3-pip
   
   	pip3 install RPi.GPIO
   
